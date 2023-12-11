@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-12-11T16:44:45.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="kDT619M4a4XZ-nWjHkvO" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-11T16:51:35.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 OPR/104.0.0.0" etag="_JIoy4loniJR2N3rsCcz" version="22.1.7" type="github">
   <diagram name="Seite-1" id="bS5SUlpaFPWKfG5YAtkF">
     <mxGraphModel dx="1162" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="czus9Bozhae_rXWCuTvX-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.radio.aerial_-_antenna_1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-2" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.bandpass_filter;" vertex="1" parent="1">
+          <mxGeometry x="160" y="240" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="czus9Bozhae_rXWCuTvX-1" target="czus9Bozhae_rXWCuTvX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="czus9Bozhae_rXWCuTvX-4" target="czus9Bozhae_rXWCuTvX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-4" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.abstract.amplifier;" vertex="1" parent="1">
+          <mxGeometry x="290" y="240" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="czus9Bozhae_rXWCuTvX-2" target="czus9Bozhae_rXWCuTvX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-6" value="" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="czus9Bozhae_rXWCuTvX-8" target="czus9Bozhae_rXWCuTvX-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-10" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;shape=mxgraph.electrical.logic_gates.bandpass_filter;" vertex="1" parent="1">
+          <mxGeometry x="490" y="240" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="czus9Bozhae_rXWCuTvX-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="czus9Bozhae_rXWCuTvX-6" target="czus9Bozhae_rXWCuTvX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
